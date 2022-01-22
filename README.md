@@ -7,7 +7,7 @@ A motorok és a PWM board megfelelő összekötése után a következő utasít�
 `code`
 
 ## HC-SR04 Ultrahang szenzor beállítása:
-![Ultrahang bekötés](ultra1.jpg)
+![Ultrahang bekötés](ultra1.png)
 *http://www.malnasuli.hu/projektek/tavolsagmeres-hc-sr04-ultrahang-szenzorral/*
 
 ## WS2812 RGB LED vezérlés elindítása:
