@@ -21,11 +21,12 @@ Ha nem akar működni, valószínűleg azért van mert ennek a szenzornak van be
 
 ## Kijelző : D096-128x64 OLED
 Az eszköz a helyes rákötés és I2C inicializálás után használható. 
+![Bekotes](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/kijelzo1.jpg)
 ```
 i2cdetect -y 1
 ```
 Az alkalmazott OLED kijelzők alapértelmezett címe: “0x3c”, így a megfelelő működés esetén a parancs kiadása után a következő képernyőkép jelenik meg:
-![Kijelzo]()
+![Kijelzo](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/kijelzo_i2c.png)
 
 Amennyiben a Pi a megfelelő címen érzékeli a rákötött kijelzőt, következhet a szükséges Python library telepítése. Ehhez egy terminál ablakban gépeljük be a következő utasításokat:
 
@@ -98,6 +99,11 @@ A telepítések után szükségünk van a konfigurációs beállítások ellenő
 sudo raspi-config
 ```
 Interfacing Options/Advanced/I2C
+![Kép1](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/i2c1.png)
+![Kép2](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/i2c2.png)
+![Kép3](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/i2c3.png)
+![Kép4](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/i2c4.png)
+![Kép5](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/i2c5.png)
 ...és itt engedélyezés...
 Majd reboot
 ```
