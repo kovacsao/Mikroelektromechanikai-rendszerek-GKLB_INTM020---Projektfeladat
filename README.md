@@ -1,4 +1,5 @@
-# Projekt1
+# Mikroelektromechanikai rendszerek (GKLB_INTM020) - Projektfeladat
+
 ## Micro sero motorok init
 (Alkatrész lista a dokumentációban részletesen.)
 A motorok és a PWM board megfelelő összekötése után a következő utasításokat szükséges elvégezni: 
