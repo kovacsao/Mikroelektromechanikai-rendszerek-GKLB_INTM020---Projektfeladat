@@ -1,14 +1,21 @@
 # Mikroelektromechanikai rendszerek (GKLB_INTM020) - Projektfeladat
 ## Robot felépítése
 Nyomtatott alkatrészekből felépített aktuátor, aminek elemei összeilleszthetők
-## Micro sero motorok init
-(Alkatrész lista a dokumentációban részletesen.)
-A motorok és a PWM board megfelelő összekötése után a következő utasításokat szükséges elvégezni: 
+## PWM Board PCA 9685
+![PCA9685](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/3-3-5%2016%20csatorn%C3%A1s%20pwm-1.jpg)
+![PCA9685](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/pca9685_1.jpg)
+## Micro sero motorok - SG90
+![SG90](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/sg90.jpg)
+A motorok és a PWM board I2C inicializálása után használható. Ha nem áll rendelkezésre ez a board, akkor PWM szabályzás javasolt, viszont az ilyen GPIO lábak száma véges. 
 `code`
 
 ## HC-SR04 Ultrahang szenzor beállítása:
-![Ultrahang bekötés](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/ultra1.PNG)
+![Ultrahang bekötés](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/ultra1.PNG)
+
+Ha nem akar működni, valószínűleg azért van mert ennek a szenzornak van beépített chip-es verziója is, amihez kevesebb ellenállást szükséges berakni a működéshez. (Kezdésnek 1K-t javaslom)
+
 *http://www.malnasuli.hu/projektek/tavolsagmeres-hc-sr04-ultrahang-szenzorral/*
+
 
 ## WS2812 RGB LED vezérlés elindítása:
 ```
