@@ -4,6 +4,9 @@
 A motorok és a PWM board megfelelő összekötése után a következő utasításokat szükséges elvégezni: 
 `code`
 
+## HC-SR04 Ultrahang szenzor beállítása:
+*http://www.malnasuli.hu/projektek/tavolsagmeres-hc-sr04-ultrahang-szenzorral/*
+
 ## WS2812 RGB LED vezérlés elindítása:
 ```
 sudo apt-get update
@@ -58,7 +61,7 @@ Ezután megnyitjuk a következő állományt:
 ```
 sudo nano examples/strandtest.py
 ```
-Ahol inicializáljuk a LED_COUNT = led számot és a LED_PIN = PIN számot (amire csatlakoztattuk, PWM lábra)
+Ahol inicializáljuk a LED_COUNT = led (darab)számot és a LED_PIN = PIN számot (amire csatlakoztattuk, PWM lábra)
 Aztán mentés, bezárás majd mehet a teszt (Mentés: CTRL + O; Bezárás: CTRL + X)
 ```
 sudo python3 examples/strandtest.py
