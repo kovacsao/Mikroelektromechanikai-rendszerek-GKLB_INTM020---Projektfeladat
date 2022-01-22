@@ -26,6 +26,7 @@ Az eszköz a helyes rákötés és I2C inicializálás után használható.
 i2cdetect -y 1
 ```
 Az alkalmazott OLED kijelzők alapértelmezett címe: “0x3c”, így a megfelelő működés esetén a parancs kiadása után a következő képernyőkép jelenik meg:
+
 ![Kijelzo](https://github.com/kovacsao/Mikroelektromechanikai-rendszerek-GKLB_INTM020---Projektfeladat/blob/main/K%C3%A9pek/I2C/kijelzo_i2c.png)
 
 Amennyiben a Pi a megfelelő címen érzékeli a rákötött kijelzőt, következhet a szükséges Python library telepítése. Ehhez egy terminál ablakban gépeljük be a következő utasításokat:
