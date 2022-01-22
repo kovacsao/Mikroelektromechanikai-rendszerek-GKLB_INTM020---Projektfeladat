@@ -4,12 +4,12 @@
 A motorok és a PWM board megfelelő összekötése után a következő utasításokat szükséges elvégezni: 
 `code`
 
-# WS2812 RGB LED vezérlés elindítása:
+## WS2812 RGB LED vezérlés elindítása:
 ```
 sudo apt-get update
 sudo apt-get install gcc make build-essential python-dev git scons swig
 ```
-Ebbe az állományba->
+Ebbe az állományba:
 ```
 sudo nano /etc/modprobe.d/snd-blacklist.conf
 ```
@@ -35,7 +35,6 @@ Majd újraindítjuk a rendszert
 ```
 sudo reboot
 ```
-
 Letöltjük a következő git könyvtárat:
 ```
 git clone https://github.com/jgarff/rpi_ws281x
