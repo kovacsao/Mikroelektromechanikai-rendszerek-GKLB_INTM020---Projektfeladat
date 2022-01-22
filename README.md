@@ -88,7 +88,7 @@ Ha minden rendben lezajlott, akkor ezek után a kijelző már programozható. Te
     disp.display()
 ```
 
-[Forrás](https://www.malnasuli.hu/raspberry_pi/i2c-s-kijelzok-raspberry-pi-hez-1-oled-kijelzo/)
+[Forrás a malnasuli.hu-ról](https://www.malnasuli.hu/raspberry_pi/i2c-s-kijelzok-raspberry-pi-hez-1-oled-kijelzo/)
 
 ## I2C 
 ```
